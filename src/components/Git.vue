@@ -18,7 +18,6 @@ export default {
     return { userDatas: [] };
   },
   mounted() {
-    console.log(GIT_API);
     const request = axios.create({
       baseURL: "https://api.github.com"
     });
